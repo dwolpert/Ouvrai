@@ -7,6 +7,12 @@ import { readdir } from 'fs/promises';
 import { fileURLToPath } from 'url';
 import firebaseConfig from '../config/firebase-config.js';
 import inquirer from 'inquirer';
+import { join } from 'path';
+import { readFileSync, writeFileSync } from 'fs';
+function escapeTemplateLiterals(str) {
+  // Escaping backticks and `${}` sequences
+  return str.replace(/`/g, '\\`').replace(/\${/g, '\\${');
+}
 
 const program = new Command()
   .name('ouvrai new')
@@ -77,6 +83,18 @@ try {
       errorOnExist: true,
       filter: (src, dest) => !src.endsWith('.DS_Store'),
     });
+    async function includeFileAsString(studyPath, fileName, outputFileName) {
+      const filePath = join(studyPath, 'src', fileName);
+      let fileContents = readFileSync(filePath, 'utf8');
+      fileContents = escapeTemplateLiterals(fileContents);
+      const outputFilePath = join(studyPath, 'src', outputFileName);
+      const exportString = `export const fileContents = \`${fileContents}\`;`;
+      console.log('hello');
+      console.log(outputFilePath);
+
+      writeFileSync(outputFilePath, exportString);
+    }
+    await includeFileAsString(studyPath, 'index.js', 'fileContents.js');
     spinner.succeed();
   } catch (err) {
     spinner.fail(err.message);
