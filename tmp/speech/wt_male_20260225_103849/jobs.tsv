@@ -1,0 +1,9 @@
+inst_welcome.mp3	Welcome. Please sit up straight or stand. Notice the tool in your right hand. You will indicate choices using this tool.
+inst_calibrate.mp3	Please calibrate your eye position. Hold the controller near your eyes and press the trigger.
+inst_instruction1.mp3	You will see dots moving on the screen. On each trial, the dots move in a different direction. To start a trial, look at the cross and press the trigger. The dots will appear for a short time and then disappear. After the dots disappear, you will see four boxes, labeled A, B, C, and D. The correct box depends on the direction the dots moved. For example, if the dots move to the right, the correct box might be B. If the dots move to the left, the correct box might be D.
+inst_instruction2.mp3	Click on the box you think is correct. If correct, the box turns green; if wrong, it turns red. For the first few trials, if you are wrong, you will be shown the correct box. The rule that connects the dot direction to the correct box will change during the experiment. When the color of the dots changes, the rule changes. Please pay attention and be ready to learn new rules. Try to get as many trials correct as possible. If you are ready to start, click Next.
+inst_starttargetbefore.mp3	Sometimes the possible directions will show up before the dots appear. Please only indicate the direction once the dots disappear as you have done in the previous trials. Click next to continue.
+inst_rest.mp3	Good work. Take a short break. Do not exit or remove your headset.
+inst_complete.mp3	Thank you. Exit VR to find the submission link on the study web page.
+inst_controller.mp3	Please connect right hand controller.
+inst_notconnected.mp3	Your device is not connected to the internet. Reconnect to resume the study.
