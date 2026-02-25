@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - banner
+  - generic [ref=e3]:
+    - heading "Fatal error! Please contact the researcher." [level=3] [ref=e4]
+    - paragraph [ref=e5]: "TypeError: Cannot read properties of undefined (reading 'position')"
+  - generic [ref=e7]:
+    - text: "Worker ID: 1876559"
+    - text: "Score: 0 Bonus: $0.00"
+  - contentinfo:
+    - generic [ref=e12]: "Time Elapsed: 00:00"

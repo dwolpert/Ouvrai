@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - banner
+  - generic [ref=e3]:
+    - heading "You must use a virtual reality headset to open this study." [level=3] [ref=e4]
+    - paragraph [ref=e5]:
+      - text: "Prolific participants:"
+      - text: Put on headset → Open VR web browser → Log in to Prolific → 'Open study in new window'
+  - generic [ref=e7]:
+    - text: "Worker ID: 7962761"
+    - text: "Score: 0 Bonus: $0.00"
+  - contentinfo:
+    - generic [ref=e12]: "Time Elapsed: 00:01"

@@ -1,11 +1,12 @@
 // File automatically generated using CLI setup:
 export default {
-  "projectId": "cognitivescience",
-  "appId": "1:936242062119:web:819c6602e1885e6ab97f02",
-  "databaseURL": "https://cognitivescience.firebaseio.com",
-  "storageBucket": "cognitivescience.appspot.com",
-  "apiKey": "AIzaSyBqyR3tmxScb87ioPP1oSN4uMWpsu3VuKQ",
-  "authDomain": "cognitivescience.firebaseapp.com",
-  "messagingSenderId": "936242062119",
-  "measurementId": "G-1GBTW5YKJQ"
+  "projectId": "motor-learning",
+  "appId": "1:975365278758:web:1e4ffd31e16261ce586ae7",
+  "databaseURL": "https://motor-learning.firebaseio.com",
+  "storageBucket": "motor-learning.firebasestorage.app",
+  "apiKey": "AIzaSyC-CxMWnNGK7gD2qu9_vEb-N6RXr4CWX_0",
+  "authDomain": "motor-learning.firebaseapp.com",
+  "messagingSenderId": "975365278758",
+  "projectNumber": "975365278758",
+  "version": "2"
 }
